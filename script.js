@@ -19,25 +19,6 @@ input.addEventListener("input", (e) => {
   e.target.value = valor.substring(0, 10);
 });
 
-function entrar() {
-  const data = document.getElementById("data").value;
-  const erro = document.getElementById("erro");
-
-  const dataCorreta = "01/01/2024";
-
-  if (data === dataCorreta) {
-    document.body.style.transition = "0.5s";
-    document.body.style.opacity = "0";
-
-    setTimeout(() => {
-      window.location.href = "site.html";
-    }, 500);
-
-  } else {
-    erro.innerText = "Data incorreta 😢 tenta de novo";
-  }
-}
-
 document.getElementById("data").addEventListener("keydown", function(event) {
   if (event.key === "Enter") {
     entrar();
@@ -60,7 +41,7 @@ function entrar() {
     document.body.style.opacity = "0";
 
     setTimeout(() => {
-      window.location.href = "site.html";
+      window.location.href = "https://seijitnk1.github.io/site_namorada/";
     }, 500);
   } else {
     erro.innerText = "Data incorreta 😢 tenta de novo!";
