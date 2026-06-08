@@ -21,6 +21,8 @@ Seu objetivo é tornar a experiência mais divertida e imersiva antes do acesso 
 * JavaScript
 * GitHub Pages
 
+link: https://seijitnk1.github.io/login_site_namorada/
+
 ## ❤️ Observação
 
 Este projeto foi criado apenas para complementar o site principal e deixar a experiência ainda mais especial.
